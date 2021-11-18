@@ -1,10 +1,52 @@
 <html lang="en-US">
 <head>
-  <title>Project Template</title>
+  <title>DMZ</title>
 </head>
 <body>
-  <div class="card">
-    <h1 class="card-title">Project Title</h1>
+  <div class="container flex-container">
+    <div id="box1">
+      <form id="character">
+        <h1>Character:</h1>
+        <div id="level">
+          <label for="level-input">Level:
+            <input type="number" id="level-input" min="1" max="20">
+          </label>
+        </div>
+        <div id="stats">
+          <div id="physical">
+            <label for="str-input">STR:
+              <input type="number" id="str-input" min="1" max="30">
+            </label>
+            <label for="dex-input">DEX:
+              <input type="number" id="dex-input" min="1" max="30">
+            </label>
+            <label for="con-input">CON:
+              <input type="number" id="con-input" min="1" max="30">
+            </label>
+          </div>
+          <div id="mental">
+            <label for="int-input">INT:
+              <input type="number" id="int-input" min="1" max="30">
+            </label>
+            <label for="wis-input">WIS:
+              <input type="number" id="wis-input" min="1" max="30">
+            </label>
+            <label for="cha-input">CHA:
+              <input type="number" id="cha-input" min="1" max="30">
+            </label>
+          </div>
+        </div>
+        <div id="character-details">
+          <label>Job class:<select name="populate-job-class" id="populate-job-class"></select></label>
+          <label>Armor:<select name="populate-armor" id="populate-armor"></select></label>
+          <label>Weapon:<select name="populate-equipped-weapon" id="populate-equipped-weapon"></select></label>
+        </div>
+      </form>
+      <button type="submit" class="btn btn-lg btn-dark">Submit Character</button>
+    </div>
+    <div id="box2">
+      <div id="spellection-box"></div>
+    </div>
   </div>
 </body>
 </html>

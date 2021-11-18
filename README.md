@@ -1,6 +1,6 @@
-# _Project Title_
+# _DMZ_
 
-#### By _**Jacob Wilson**_
+#### By _**Jacob Wilson & Skylar Brockbank**_
 
 #### _a brief description_
 
@@ -32,7 +32,7 @@ Make sure to include information for package.jason and install
 * _Now type npm install in your terminal to install the packages used in the project, you may have to run install twice due to the size of the packages_
 * _You can now view the project by typing npm run start in your terminal_
 * _OR_
-* _You can find the deployed project on gh-pages (here)[]
+* _You can find the deployed project on gh-pages (here)[]_
 
 ## Known Bugs
 

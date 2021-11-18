@@ -1,3 +1,48 @@
 body{
-  background-color: blue;
+  background-color: cyan;
+}
+.flex-container{
+  display: flex;
+}
+#stats{
+  display: flex;
+}
+#physical{
+  /* display: flex;
+  flex-direction: column; */
+  background-color:red;
+  display: grid;
+  grid-template-rows: 3;
+  grid-gap: 2%;
+  box-sizing: border-box;
+  margin: .5vw;
+}
+
+#mental{
+  /* display: flex;
+  flex-direction: column; */
+  background-color:green;
+  display: grid;
+  grid-template-rows: 3;
+  grid-gap: 2%;
+  box-sizing: border-box;
+  margin: .5vw;
+
+}
+#physical > label , #mental > label {
+  justify-self: end;
+}
+
+#character-details{
+  background-color: darkgreen;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: flex-end; */
+  display: grid;
+  grid-template-rows: 3;
+  justify-content: center;
+}
+
+select{
+  width: 5em;
 }

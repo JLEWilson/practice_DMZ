@@ -17,7 +17,7 @@ module.exports = {
     new CleanWebpackPlugin(),
     new Dotnev(), 
     new HtmlWebpackPlugin({
-      title: 'Project Template',
+      title: 'DMZ',
       template: './src/index.html',
       inject: 'body'
     })
