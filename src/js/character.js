@@ -1,5 +1,5 @@
 export default class Character{
-  constructor(str, dex, con, int, wis, cha, jobClass, armor, equippedWeapon, level){
+  constructor(level, str, dex, con, int, wis, cha, jobClass, armor, equippedWeapon){
     this.stats = {
       STR: parseInt(str),
       DEX: parseInt(dex),

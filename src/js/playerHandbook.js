@@ -1,19 +1,19 @@
 export default class PlayerHandbook{
   constructor(){
-    this.armorOptions = {};
+    this.armourOptions = {};
     this.weaponOptions = {};
     this.jobClasses = {};
     this.spellBook = {};
   }
 
   
-  static async getArmor(){
+  static async getArmour(){
     try{
       const response = await fetch("https://www.dnd5eapi.co/api/equipment-categories/armor");
       if(!response.ok){
         throw Error(response.statusText);
       }
-      return response.json();
+      return await response.json();
     } catch(error) {
       return error.message;
     }
@@ -24,7 +24,7 @@ export default class PlayerHandbook{
       if(!response.ok){
         throw Error(response.statusText);
       }
-      return response.json();
+      return await response.json();
     } catch(error) {
       return error.message;
     }
@@ -35,7 +35,7 @@ export default class PlayerHandbook{
       if(!response.ok){
         throw Error(response.statusText);
       }
-      return response.json();
+      return await response.json();
     } catch(error) {
       return error.message;
     }
@@ -46,7 +46,7 @@ export default class PlayerHandbook{
       if(!response.ok){
         throw Error(response.statusText);
       }
-      return response.json();
+      return await response.json();
     } catch(error) {
       return error.message;
     }
@@ -57,7 +57,7 @@ export default class PlayerHandbook{
       if(!response.ok){
         throw Error(response.statusText);
       }
-      return response.json();
+      return await response.json();
     } catch(error) {
       return error.message;
     }
